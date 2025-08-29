@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node ./src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Myroslav Ivanov",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0",
+    "nodemon": "^3.1.10"
+  }
+}
