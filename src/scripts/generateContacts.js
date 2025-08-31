@@ -1,5 +1,5 @@
 import fs from "node:fs"
-import PATH_DB from "../constants/contacts";
+import { PATH_DB } from "../constants/contacts";
 import { createFakeContact } from "../utils/createFakeContact";
 
 
