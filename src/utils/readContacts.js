@@ -1,5 +1,4 @@
 import fs from "node:fs/promises";
-// const path = require("path")
 
 import { PATH_DB } from '../constants/contacts.js';
 
