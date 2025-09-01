@@ -5,8 +5,9 @@ import { PATH_DB } from '../constants/contacts.js';
 export const countContacts = async () => {
 
      try {
-            const data = await fs.readFile(PATH_DB, "utf-8");
-            const count = data.length
+         const data = await fs.readFile(PATH_DB, "utf-8");
+         const dataArray = data.split("},");
+            const count = dataArray.length
             return count
             
     
